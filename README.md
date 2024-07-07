@@ -18,7 +18,7 @@ The code is for $\hat{D}_n(U_i),i=1,\dots,n$ in the residual tensor.
 
 This issue has been resolved using a new noise tensor estimator in our second paper. 
 
-The paper has not yet been published, but the corresponding code can be found at the **pLDTI** repository.
+The second paper has not yet been published, but the corresponding code can be found at the **pLDTI** repository.
 
 More details on the numerical implementation can be found at the aforementioned paper.
  
