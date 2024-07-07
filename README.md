@@ -8,13 +8,13 @@ There are two main codes for running simulations.
 
 1. **simulation_example_H0.m** This script simulates an artificial fiber tract whose orientation does not change over time.
 
-2. **simulation_example_H1.m** TThis script simulates an artificial fiber tract whose orientation changes over time.
+2. **simulation_example_H1.m** This script simulates an artificial fiber tract whose orientation changes over time.
 
 The computational time is slower at the following line:
 
 > dnhat_array=dnhat_Xi(DD_array(:,1),n,nx,ny,nz,nt,h,parform); % To get dnhat(Xi) for all i=1,...,n. 
 
-This is because it iteratively estimates $$\hat{D}_n(U_i),i=1,\dots,n$$ in the residual tensor.
+The code is for $\hat{D}_n(U_i),i=1,\dots,n$ in the residual tensor.
 
 This issue has been resolved using a new noise tensor estimator in our second paper. 
 
